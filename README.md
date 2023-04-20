@@ -1,2 +1,1 @@
-# Lab 2 - Starter
-https://lmeiucsd.github.io/CSE110Lab2/
+https://lmeiucsd.github.io/sp22-cse110-lab3/
