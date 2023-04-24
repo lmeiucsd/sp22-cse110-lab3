@@ -5,6 +5,7 @@
     <meta name="Larry Mei" content="CSE 110 Lab 2">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
     <style>
         h3 {
           color: blue;
@@ -17,17 +18,17 @@
             <h1>CSE 110 Lab 2</h1>
             <h2 style="color:red;">By Larry Mei</h2>
         </header>
-        <nav>
-            <a href="#">Team 1</a> |
+        <nav id="nav-container">
+            <a href="#" id="link1">Team 1</a> |
             <a href="#">Meeting Minutes</a> |
             <a href="#">Check-In 1</a>
         </nav>
         <hr>
-        <section>
+        <section class="sections">
             <h2>First Check-In</h2>
             <h3>April 16, 2023</h3>
         </section>
-        <section>
+        <section class="sections">
             <h2>Agenda</h2>
             <span>This meeting will cover introductions with teammates and assigning of roles for the upcoming group project.</span>
         </section>
@@ -35,31 +36,31 @@
             <h2>Attendance List</h2>
             <ul>
                 <li id="name1">Larry</li>
-                <li>Daiwei</li>
-                <li>Alex T</li>
-                <li>Alex D</li>
-                <li>Nathan</li>
-                <li>Julian</li>
+                <li id="name2">Daiwei</li>
+                <li id="name3">Alex T</li>
+                <li id="name4">Alex D</li>
+                <li id="name5">Nathan</li>
+                <li id="name6">Julian</li>
             </ul>
         </div>
-        <section>
-            <h2>Last Meeting</h2>
-            <p>N/A since this is the first check-in meeting</p>
+        <section class="sections">
+            <h2 id="hTest">Last Meeting</h2>
+            <p id="pTest">N/A since this is the first check-in meeting</p>
         </section>
         <section>
-            <h2>This Meeting</h2>
+            <h2 id="hTest2">This Meeting</h2>
             <ol>
-                <li>Introduced ourselves to each other</li>
-                <li>Talk and speculate about upcoming group project</li>
-                <li>Assign roles to each person</li>
-                <li>Plan out next meetings and agendas using <a href="https://www.when2meet.com/">when2meet</a></li>
+                <li id="point1">Introduced ourselves to each other</li>
+                <li id="point2">Talk and speculate about upcoming group project</li>
+                <li id="point3">Assign roles to each person</li>
+                <li id="point4">Plan out next meetings and agendas using <a href="https://www.when2meet.com/">when2meet</a></li>
             </ol>
             <br>
-            <p>This meeting lasted around 20 minutes at the CSE basement in UCSD.</p>
+            <p id="pTest2">This meeting lasted around 20 minutes at the CSE basement in UCSD.</p>
         </section>
         <section>
             <h2>Miscellaneous Concerns</h2>
-            <details>
+            <details id="details1">
                 <summary>Nathan</summary>
                 <p>Nathan said he would have to participate <b>remotely</b> on <i>Week 5</i></p>
             </details>
@@ -69,7 +70,7 @@
             </details>
             
         </section>
-        <section>
+        <section id="media">
             <h2>Multimedia</h2>
             <img src="whiteboard.jpeg" alt="whiteboard meeting" width="600" height="400"><br>
             <video width="320" height="240" controls>
@@ -126,7 +127,7 @@
                       <option>Developer</option>
                       <option>Mentor</option>
                     </select><br><br>
-                    <button type="button">Submit</button>
+                    <button type="button" id="submit">Submit</button>
                 </fieldset>
             </form>
         </section>
