@@ -55,7 +55,7 @@
     min-width: 3.5em;
 }
 
-/* selector list */
+/* selector list, with text properties */
 h2, h3 {
   text-decoration: underline;
   text-align: left;
